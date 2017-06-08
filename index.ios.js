@@ -21,7 +21,7 @@ import HomeScreen from './App/HomeScreen';
 
 import ChatScreen from './App/ChatScreen';
 
-import Login from './App/Login'
+// import Login from './App/Login';
 
 // class RecentChatsScreen extends React.Component {
 //   render() {
@@ -88,7 +88,7 @@ class CheckScreen extends Component {
 // }
 
 const SimpleApp = StackNavigator({
-  Home: { screen: Login },
+  Home: { screen: HomeScreen },
   Chat: { screen: ChatScreen },
   Check: { screen: CheckScreen }
 });

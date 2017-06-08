@@ -3,7 +3,8 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Button
 } from 'react-native';
 
 export default class ChatScreen extends Component {
@@ -11,9 +12,14 @@ export default class ChatScreen extends Component {
 		title: 'Chat with Nayan',
 	};
 	render() {
+		const { navigate } = this.props.navigation;
 		return (
 			<View>
 				<Text> Chat with Divs </Text>
+				<Button 
+		          onPress={ () => navigate('Check')}
+		          title="Chat with Divs"
+		        />
 			</View>
 		);
 	}
