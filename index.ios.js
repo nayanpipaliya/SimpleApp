@@ -97,4 +97,4 @@ const SimpleApp = StackNavigator({
   Check: { screen: CheckScreen }
 });
 
-AppRegistry.registerComponent('SimpleApp', () => SimpleApp);
+AppRegistry.registerComponent('SimpleApp', () => Login);

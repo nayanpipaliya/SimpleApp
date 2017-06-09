@@ -23,7 +23,7 @@ export default class HomeScreen extends Component {
           onPress={ () => navigate('Chat')}
           title="Chat with Vikas"
         />
-              {Login}
+              <Login />
       </View>
     );
   }
