@@ -21,6 +21,10 @@ import HomeScreen from './App/HomeScreen';
 
 import ChatScreen from './App/ChatScreen';
 
+import Login from './src/pages/Login';
+
+
+
 // import Login from './App/Login';
 
 // class RecentChatsScreen extends React.Component {
